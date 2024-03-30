@@ -6,7 +6,7 @@ export const GitExpertApp = () => {
 
   const onAddCategory = (newCategory) => {
     if (categories.includes(newCategory)) return;
-    setCategories([...categories, newCategory]);
+    setCategories([newCategory, ...categories]);
     //? la linea comentada, lo que dice es que hace referencia al estado local de categorias cat y despues si hace el resto.
     // setCategories(cats => [...cats, 'Naruto']);
   };
