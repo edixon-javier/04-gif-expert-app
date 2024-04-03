@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`evidence in the archive GifItem Must match the snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="goku"
+      src="https://api.giphy.com/v1/gifs/search?api_key=brkkTG9o4yTFN77IMDY9wFQuePAhp08Z&q=goku&limit=16"
+    />
+  </div>
+</div>
+`;

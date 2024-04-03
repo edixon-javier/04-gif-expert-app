@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AddCategory, GifGrid } from "./components";
 
-export const GitExpertApp = () => {
+export const GifExpertApp = () => {
   const [categories, setCategories] = useState(["Deat Note"]);
 
   const onAddCategory = (newCategory) => {
